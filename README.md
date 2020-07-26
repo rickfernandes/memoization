@@ -24,6 +24,7 @@ The main takeaway here is that you should **never** use memoization if a functio
 ### Exchange Rate ###
 This code shows how memoization improves execution time when using a costly function (like a GET request). Another side advantage here is that if the API server is down
 or times out, you will still have the [lru_cache](https://www.geeksforgeeks.org/python-functools-lru_cache/) from previous calls.
+
 ---
 
 ### Notes: ###
