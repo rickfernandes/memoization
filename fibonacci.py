@@ -46,7 +46,6 @@ def main():
 		except:
 			print('Invalid input')
 	print(f"\nFibonacci array: {[fib_lru(n) for n in range(n)]}\n")
-	# print('\n','Fibonacci array: ',[fib_lru(n) for n in range(n)])
 	fibonacci_times(n-1)
 
 if __name__ == '__main__':
