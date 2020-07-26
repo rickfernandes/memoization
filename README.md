@@ -31,6 +31,7 @@ or times out, you will still have the [lru_cache](https://www.geeksforgeeks.org/
 *All codes use Python3*
 Modules used:
 |Module|Attribute|
+|-----:|:-----:|:-----|
 |functools|lru_cache|
 |random|randint|
 |time|perf_counter|
